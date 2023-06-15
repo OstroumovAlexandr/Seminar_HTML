@@ -1,27 +1,8 @@
-//alert('Привет мир!');
-// let nam = "Kamila";
-// alert(`Привет, ${nam}`);
-//let element = document.getElementById('el1');
-//console.log(element);
 
 let count = 0;
-
 function changeColor(){
-    //получаем массив
     let box = document.getElementsByClassName('box');
-
-    //получаем 0-й элемент массива
     let element = box[0];  
-    // if(count % 2 == 0){
-    //     //добавляем класс
-    //     element.classList.add('activeBox'); 
-    // }
-    // else{
-    //     element.classList.remove('activeBox');
-    // }
-    // count ++;
-
-    //.toggle либо включает либо отключает класс
     element.classList.toggle('activeBox');
 }
 
